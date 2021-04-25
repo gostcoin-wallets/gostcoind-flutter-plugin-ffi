@@ -1,4 +1,4 @@
-# native_add
+# gostcoind-flutter-plugin-ffi
 
 A Flutter FFI plugin allowing to launch, terminate, and access gostcoind.
 
