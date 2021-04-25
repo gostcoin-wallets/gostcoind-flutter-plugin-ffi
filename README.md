@@ -2,6 +2,11 @@
 
 A Flutter FFI plugin allowing to launch, terminate, and access gostcoind.
 
+Project status - work in progress - see this screenshot:
+
+![image](https://user-images.githubusercontent.com/19966907/115996605-85d6c880-a612-11eb-8f5c-3d1f8c44dcee.png)
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter
