@@ -1,0 +1,3 @@
+/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86/CMakeFiles/native_add.dir

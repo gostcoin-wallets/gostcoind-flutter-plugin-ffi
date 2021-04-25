@@ -1,0 +1,3 @@
+# ninja log v5
+0	16	1619359523	CMakeFiles/native_add.dir/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/ios/Classes/native_add.cpp.o	92c5f9e3223004f7
+17	36	1619359523	/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/example/build/native_add/intermediates/cmake/debug/obj/x86/libnative_add.so	de31fa649ff68a88

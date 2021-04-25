@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86_64",
+  "command": "/home/user/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/home/user/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/user/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_add_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_add.dir/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/ios/Classes/native_add.cpp.o -c /home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/ios/Classes/native_add.cpp",
+  "file": "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/ios/Classes/native_add.cpp"
+}
+]

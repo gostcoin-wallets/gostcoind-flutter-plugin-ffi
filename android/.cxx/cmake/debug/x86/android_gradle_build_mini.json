@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/CMakeLists.txt",
+    "/home/user/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/user/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_add-Debug-x86": {
+      "artifactName": "native_add",
+      "buildCommand": "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/x86\" native_add",
+      "abi": "x86",
+      "output": "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/example/build/native_add/intermediates/cmake/debug/obj/x86/libnative_add.so",
+      "runtimeFiles": []
+    }
+  }
+}

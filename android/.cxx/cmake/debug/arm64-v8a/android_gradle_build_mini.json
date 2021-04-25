@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/CMakeLists.txt",
+    "/home/user/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/home/user/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_add-Debug-arm64-v8a": {
+      "artifactName": "native_add",
+      "buildCommand": "/home/user/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/android/.cxx/cmake/debug/arm64-v8a\" native_add",
+      "abi": "arm64-v8a",
+      "output": "/home/user/git/S2/gostcoind-flutter-plugin-ffi/native_add/example/build/native_add/intermediates/cmake/debug/obj/arm64-v8a/libnative_add.so",
+      "runtimeFiles": []
+    }
+  }
+}
