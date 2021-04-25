@@ -32,12 +32,19 @@ android {
     }
     defaultConfig {
         minSdkVersion 16
-    }
 
-    externalNativeBuild {
-        cmake {
-          // Provides a relative path to a CMake build script.
-          path "CMakeLists.txt"
+        ndk {
+            //abiFilters "armeabi-v7a"
+            //abiFilters "x86"
+            //abiFilters "arm64-v8a"
+            abiFilters "x86_64"
+        }
+
+        externalNativeBuild {
+            ndkBuild {
+                arguments "NDK_MODULE_PATH:=${rootProject.projectDir}/android/ndkbuild"
+                arguments "-j7"
+            }
         }
     }
 }
