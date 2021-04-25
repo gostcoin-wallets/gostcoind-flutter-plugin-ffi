@@ -1,28 +1,23 @@
 LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE := i2pd
+LOCAL_MODULE := gostcoind
 LOCAL_CPP_FEATURES := rtti exceptions
-LOCAL_C_INCLUDES += $(IFADDRS_PATH) $(LIB_SRC_PATH) $(LIB_CLIENT_SRC_PATH) $(DAEMON_SRC_PATH)
+LOCAL_C_INCLUDES += $(GOSTCOIND_SRC_PATH)
 LOCAL_STATIC_LIBRARIES := \
 	boost_system \
-	boost_date_time \
 	boost_filesystem \
 	boost_program_options \
-	crypto \
+	boost_thread \
+	boost_chrono \
+	db_cxx \
 	ssl \
-	miniupnpc
-LOCAL_LDLIBS := -lz
+	crypto
+LOCAL_LDLIBS := -lz \
+                -ldl \
+                -lpthread
 
 LOCAL_SRC_FILES := \
-	DaemonAndroid.cpp \
-	i2pd_android.cpp \
-	$(IFADDRS_PATH)/ifaddrs.c \
-	$(wildcard $(LIB_SRC_PATH)/*.cpp) \
-	$(wildcard $(LIB_CLIENT_SRC_PATH)/*.cpp) \
-	$(DAEMON_SRC_PATH)/Daemon.cpp \
-	$(DAEMON_SRC_PATH)/UPnP.cpp \
-	$(DAEMON_SRC_PATH)/HTTPServer.cpp \
-	$(DAEMON_SRC_PATH)/I2PControl.cpp
+	$(wildcard $(GOSTCOIND_SRC_PATH)/*.cpp)
 
 include $(BUILD_SHARED_LIBRARY)
 
